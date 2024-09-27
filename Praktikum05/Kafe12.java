@@ -42,6 +42,10 @@ public class Kafe12{
             case 'L':
                 totalHarga += 0.4 * totalHarga;
                 break;
+            default:
+                System.out.print("size yang dipilih tidak tersedia");
+                input.close();
+                return;
         
         }
         double diskon = keanggotaan ? 0.1 : 0;
