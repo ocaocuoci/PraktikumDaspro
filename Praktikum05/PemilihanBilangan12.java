@@ -9,10 +9,10 @@ public class PemilihanBilangan12{
         angka = input.nextInt();
 
         if ( angka % 2 == 0){
-            System.out.println("Angka\t" + angka  "\tadalah bilangan genap");
+            System.out.println("Angkat" + angka  "adalah bilangan genap");
         }
         else {
-            System.out.println("Angka\t" + angka + "\tadalah bilangan ganjil");
+            System.out.println("Angka" + angka + "adalah bilangan ganjil");
         }
     }
 }
