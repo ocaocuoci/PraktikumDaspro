@@ -10,7 +10,7 @@ public class Latihan1{
             
             if (jam >= 10) {
                 System.out.println("tidak mungkin");
-                break;
+                continue;
             } else {
                 total += jam;
             }
