@@ -10,7 +10,7 @@ public class Latihan2{
         do {
             System.out.println("Masukkan jam lebur pegawai ke-" + pegawai + ": ");
             jam = input.nextInt();
-            if (jam >= 8 && jam <= 12){
+            if (jam > 8 && jam <= 12){
                 System.out.println("Masukkan gaji harian: ");
                 gajiHarian = input.nextInt();
                 double totalBonus = gajiHarian * bonus;
