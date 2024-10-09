@@ -15,8 +15,7 @@ public class Latihan2{
                 gajiHarian = input.nextInt();
                 double totalBonus = gajiHarian * bonus;
                 System.out.println("bonus yang didapat pegawai " + totalBonus);
-            } else if (jam > 0 && jam < 8) {
-                System.out.println("Pegawai tersebut tidak diproses");
+            } else {
                 continue;
             }
             pegawai++;
