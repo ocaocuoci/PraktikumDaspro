@@ -16,7 +16,7 @@ public class Latihan2{
                 double totalBonus = gajiHarian * bonus;
                 System.out.println("bonus yang didapat pegawai " + totalBonus);
             } else {
-                continue;
+                break;
             }
             pegawai++;
 
